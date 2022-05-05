@@ -41,8 +41,9 @@ If a differing geographic aggretation is required as part of the project, please
 
 The file [Final_report.Rmd](Final_Report.Rmd) contains the code necessary to run the analysis. Please be aware some lines may have been commented out to enable quicker knitting of the script to a pdf output, as outputs created and code chunks previously ran were saved within the cache by the markdown syntax `cache = TRUE`. In some areas of the script, images are inserted as `.png` files opposed to re-running the code, the associated images are available in the [outputs](outputs) folder of this repository. 
 
-Please note file paths will need to be changed relative to where you have downloaded the data to on your computer, i.e. when reading in `.csv` files to R, ensure you have edited the code so the data is located in the same location as where you have started the new project directory, and the path refers to this location.
+Similarly, some `.csv` files which were exported within the script for further analysis are available within [aggregations](aggretations) folder, however these files likely will exist in your directory if you have followed the methodology to produce them, and uncommented the `write_csv` lines.
 
+Please note file paths will need to be changed relative to where you have downloaded the data to on your computer, i.e. when reading in `.csv` files to R, ensure you have edited the code so the data is located in the same location as where you have started the new project directory, and the path refers to this location.
 
 ## Issues and contributing
 
