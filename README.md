@@ -23,7 +23,7 @@ installed on a computer you have access to:
 
 *Bikes data*
 
-To reproduce this project (or run the code for a different time period), download data regarding Helsinki's Bike Share System from [Helsinki's Open Data Interface](https://www.hsl.fi/en/hsl/open-data#journeys-made-by-city-bikes). For this project, data for the Month of April 2021 was used spanning to 12th May, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv". To use a different month, simply change the data required, alternatively larger datasets to assess longer temporal trends can be downloaded via the same interface by stating the year required, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv".
+To reproduce this project (or run the code for a different time period), download data regarding Helsinki's Bike Share System from [Helsinki's Open Data Interface](https://www.hsl.fi/en/hsl/open-data#journeys-made-by-city-bikes). For this project, data for the Month of April 2021 was used spanning to 12th May, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv". To use a different month, simply change the date required, alternatively larger datasets to assess longer temporal trends can be downloaded via the same interface by stating the year required, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv".
 
 *Docking locations*
 
@@ -34,6 +34,8 @@ The associated docking locations of the city bikes can be downloaded in spatial 
 Demographic data referring to the year 2020 was also used as part of the analysis. This data can be downloaded from [here](https://pxnet2.stat.fi/PXWeb/pxweb/en/Postinumeroalueittainen_avoin_tieto/Postinumeroalueittainen_avoin_tieto__2022/paavo_pxt_12ey.px/) at postal level. Within this project proportions of each group in each postal sector were obtained for direct comparison, this was achieved through dividing the number of a group in an area by the total number of inhabitants in that area, and multiplying by 100. The corresponding postal sector boundary files were downloaded in `.shp` format for functionality with QGIS from [here](https://hri.fi/data/en_GB/dataset/paakaupunkiseudun-postinumeroalueet/resource/0a952d7c-a038-40e3-b9fe-e910c76153f3).
 
 If a differing geographic aggretation is required as part of the project, please refer to the [Statistics Finland](https://stat.fi/tup/tilastotietokannat/index_en.html) website and select your required aggregation and variables. There are also a host of additional datasets available from the [Helsinki Region Infoshare](https://hri.fi/fi/) which may be useful for alternate analyses.
+
+**Please not the data has not been added to the repository in raw format due to exceeding Github's limit for file size, but can be downloaded from the links provided as it is open access**
 
 ## Running the script
 
