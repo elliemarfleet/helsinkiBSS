@@ -45,6 +45,10 @@ Similarly, some `.csv` files which were exported within the script for further a
 
 Please note file paths will need to be changed relative to where you have downloaded the data to on your computer, i.e. when reading in `.csv` files to R, ensure you have edited the code so the data is located in the same location as where you have started the new project directory, and the path refers to this location.
 
+## Aggregations
+
+[IDs_Posnos.csv](IDs_Posnos.csv) contains a list of the 457 docking stations in Helsinki and the associated postal sector ("Posno") they reside in. This data was extracted from QGIS, but is available within the [aggregations](aggregations) folder for quicker access.
+
 ## Issues and contributing
 
 Any feedback or contributions to this repo are welcome. If you have a
