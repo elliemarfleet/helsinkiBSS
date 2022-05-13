@@ -23,7 +23,7 @@ installed on a computer you have access to:
 
 *Bikes data*
 
-To reproduce this project (or run the code for a different time period), download data regarding Helsinki's Bike Share System from [Helsinki's Open Data Interface](https://www.hsl.fi/en/hsl/open-data#journeys-made-by-city-bikes). For this project, data for the Month of April 2021 was used spanning to 12th May, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv". To use a different month, simply change the date required, alternatively larger datasets to assess longer temporal trends can be downloaded via the same interface by stating the year required, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv".
+To reproduce this project (or run the code for a different time period), download data regarding Helsinki's Bike Share System from [Helsinki's Open Data Interface](https://www.hsl.fi/en/hsl/open-data#journeys-made-by-city-bikes). For this project, data for the Month of April 2021 was used spanning to 12th May, i.e. "dev.hsl.fi/citybikes/od-trips-2021/2021-04.csv". To use a different month, simply change the date required, alternatively larger datasets to assess longer temporal trends can be downloaded via the same interface by stating the year required, i.e. "dev.hsl.fi/citybikes/od-trips-2021.csv".
 
 *Docking locations*
 
