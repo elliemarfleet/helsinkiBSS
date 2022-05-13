@@ -35,7 +35,7 @@ Demographic data referring to the year 2020 was also used as part of the analysi
 
 If a differing geographic aggregation is required as part of the project, please refer to the [Statistics Finland](https://stat.fi/tup/tilastotietokannat/index_en.html) website and select your required aggregation and variables. There are also a host of additional datasets available from the [Helsinki Region Infoshare](https://hri.fi/fi/) which may be useful for alternate analyses.
 
-**Please not the data has not been added to the repository in raw format due to exceeding Github's limit for file size, but can be downloaded from the links provided as it is open access**
+**Please note the data has not been added to the repository in raw format due to exceeding Github's limit for file size, but can be downloaded from the links provided as it is open access**
 
 ## Running the script
 
